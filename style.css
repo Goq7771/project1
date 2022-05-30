@@ -1,0 +1,208 @@
+
+body {
+    margin: 0;
+}
+
+header {
+    background: orange;
+}
+
+
+#logo {
+    height: 90px;
+    margin-left: 25px
+}
+
+
+nav {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 33px;
+    margin-left: 8%;
+}
+
+nav a {
+    color: #fff;
+    margin-left: 55px;
+    font-size: 20px;
+    font-family: cursive;
+    text-decoration: none;
+    transition: .3s
+}
+
+nav a:hover {
+    text-decoration: underline;
+    font-size: 23px;
+}
+
+header form {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 33px;
+    margin-left: 15%;
+}
+
+header form input {
+    height: 32px;
+    width: 220px;
+    border-radius: 15px;
+    outline: 3px solid yellow;
+    font-size: 17px;
+    padding-left: 12px
+}
+
+#cover {
+    height: 300px;
+    background-image: url(cover.jpg);
+    background-size: 100%;
+    transition: .5s;
+}
+
+#cover:hover {
+    background-size: 105%;
+}
+
+
+h1 {
+    padding-top: 4%;
+    padding-left: 20%;
+    margin: 0;
+    font-size: 60px;
+    font-family: cursive;
+    font-weight: normal;
+    color: #7a3fb3;
+    text-shadow: 6px 4px 4px #000;
+    }
+
+#cover p {
+    font-size: 22px;
+    width: 45%;
+    font-family: fantasy;
+    text-shadow: 6px 4px 4px #000, -6px -4px 4px #000, 0 4px 4px #000, 0px -4px 4px #000;
+    color: white;
+    margin-left: 80px;
+    opacity: 0;
+    transition: 1s;
+}
+
+#cover:hover p {
+    opacity: .7;
+}
+
+main {
+    text-align: center;
+    
+}
+
+main h2 {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+main .pro-item {
+    width: 270px;
+    min-height: height: 300px;
+    border: 2px solid #000;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    display: inline-block;
+    margin: 13px;
+    transition: .5s;
+}
+
+main .pro-item:hover {
+    width: 310px;
+    transition: .5s
+}
+
+main .pro-item  img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+
+main .pro-item h3 {
+    font-size: 25px;
+    font-family: cursive;
+    margin: 8px;
+}
+
+main .pro-item span {
+    font-weight: bold;
+    font-size: 20px
+}
+
+main .pro-item button {
+    display: block;
+    width: 50%;
+    height: 40px;
+    background: #4568fa;
+    font-size: 20px;
+    margin-top: 8px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+main .pro-item button:hover {
+    background-color: #0707ad
+}
+
+footer {
+    text-align: center;
+    background-color: orange;
+    color: #fff;
+    padding: 40px
+}
+
+#p1 {
+    font-family: fantasy;
+    font-size: 30px;
+    transition: .3s
+}
+
+#p1:hover {
+    font-size: 35px;
+}
+
+#p2 {
+    font-family: sans-serif;
+    font-size: 20px    
+}
+
+footer h5 {
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer .social img {
+    height: 50px;
+    transition: .2s;
+}
+
+footer .social a {
+    text-decoration: none;
+}
+
+
+footer .social img:hover {
+    height: 60px;
+}
+
+#soc {
+    margin-left: 50px;
+}
+
+main h2 {
+    font-family: monospace;
+    font-size: 50px;
+}
+
+iframe {
+    transition: .3s;
+    
+}
+
+iframe:hover {
+    width: 100%
+}
